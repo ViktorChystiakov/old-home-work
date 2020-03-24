@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+.logo, .news, .portfolio, .about-us, .contacts, .map {
+	margin: -4px;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 16.6%;
+	height: 100%;
+	text-align: center;
+	padding: 30px;
+	color: white;
+}
+
+.header {	
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background-color: black;
+}
+
+.body {	
+	display: inline-block;
+	margin: 100px;
+}
