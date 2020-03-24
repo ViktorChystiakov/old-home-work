@@ -1,0 +1,29 @@
+{
+	"Print to console": {
+		"prefix": "class_snippet",
+		"body": [
+			"a:hover,",
+			"a:focus,",
+			"a:active {",
+			"\t text-decoration: ${1:none};",
+			"}",
+			"\t",
+			"button:focus,",
+			"input:focus,",
+			"a:focus,",
+			"textarea:focus {",
+			"\t outline: ${2:none};",
+			"}",
+			"\t",
+			"h1,",
+			"h2,",
+			"h3,",
+			"h4,",
+			"h5,",
+			"h6,",
+			"p {",
+			"\t margin: ${3:0};",
+			"}"
+		],
+	}
+}

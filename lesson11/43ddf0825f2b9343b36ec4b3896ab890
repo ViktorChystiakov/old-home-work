@@ -1,0 +1,23 @@
+{
+	"Print to console": {
+		"scope": "html",
+		"prefix": "!!",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"${1:en}\">",
+			"\t",
+			"<head>",
+			"\t<meta charset=\"UTF-8\">",
+			"\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"\t<link rel=\"stylesheet\" href=\"${2:css}\">",
+			"\t<title>${3:title}</title>",
+			"</head>",
+			"\t",
+			"<body>",
+			"\t${4:content}",
+			"</body>",
+			"\t",
+			"</html>"
+		],
+	}
+}
